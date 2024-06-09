@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-auth {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-auth .checkbox {
+  font-weight: 400;
+}
+
+.form-auth .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-auth input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-auth input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.bg-lara {
+  background-color: #09B850;
+  border: none;
+}
+
+.bg-outline-lara {
+  background-color: transparent;
+  color: #09B850;
+  border-color: #09B850;
+}
+
+.link-lara {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-lara:active {
+  color: #09B850;
+  font-weight: 600;
+}
+
+.link-lara:hover {
+  color: #09B850;
+  font-weight: 600;
+}
+
+.border-lara {
+  border-color: #09B850!important;
+}
